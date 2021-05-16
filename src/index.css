@@ -1,13 +1,47 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+/* * {
+  border: 1px solid black;
+} */
+
+.update-password-body {
+  background-color: #457b9d;
+  display: inline-block;
+  height: 100vh;
+  width: 100vw;
+}
+
+.update-password-col {
+  background-color: #f1faee;
+  box-shadow: 5px 5px 3px 1px rgba(0, 0, 0, 0.4);
+  border-radius: 10%;
+  overflow: hidden;
+}
+
+.update-password-title-container {
+  background-color: #ffb703;
+}
+.update-password-title {
+  margin-left: 5%;
+}
+
+
+.btn-update-password {
+  background-color: #ffb703;
+}
+
+.update-password-form-group{
+  margin-bottom: 2%;
 }
